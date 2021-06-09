@@ -24,7 +24,7 @@
 // import {errorHandler} from '../../utility/utility';
 // import moment from 'moment';
 
-export class MForm {
+export class AureliaForm {
   constructor() {
     this.toggleGroups = [];
     this.toggleInputGroups = [];
