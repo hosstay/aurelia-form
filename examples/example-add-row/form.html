@@ -1,0 +1,22 @@
+<template>
+  <require from="./form.css"></require>
+  <div id="formDiv" class="col-xs-6 dashboard-box" style="top:0vh; height:75vh;">
+    <div class="dashboard-header dashboard-top-header">
+      <p class="dashboard-label"></p>
+      <button id="formExitButton" class="dashboard-btn pull-right fa fa-times"></button>
+    </div>
+    <div id="formBody">
+      <div>
+        <p class="dashboard-label" style="left:-0.7vw">Input Form </p>
+      </div>
+      <div class="a_cell" style="margin-top:1vh; border:none; float:none; padding:0px; height:171.5vh; width: 87%">
+        <div repeat.for="field of inputFields">
+          <label for.bind="field.id" class="input_label">${field.customName}:</label><input type="text" id.bind="field.id" class="a_input" autocomplete="no">
+        </div>
+      </div>
+      <div style="margin-top: 17.8vh">
+        <button id="bodyFooterSubmit">Submit</button>
+      </div>
+    </div>
+  </div>
+</template>

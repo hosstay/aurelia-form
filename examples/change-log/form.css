@@ -1,0 +1,129 @@
+#formDiv {
+  height: 75vh;
+  width: 55vw;
+  position: absolute;
+  left: 21.9vw;
+  z-index: 4;
+}
+
+#formBody {
+  overflow: auto;
+  height: 71vh;
+  margin-left: 1vw;
+}
+
+.dashboard-label {
+  color: #0474c9;
+  font-weight: bold;
+  font-family: Open Sans;
+  text-align: center;
+  font-size: 2vh;
+  position: absolute;
+  z-index: 2;
+  top: 0.3vh;
+  height: 3vh;
+  width: 100%;
+}
+
+.input_label {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Open Sans";
+  margin-left: 1.6vw;
+  margin-top: 0.5vh;
+  float: left;
+  max-width: 18vw;
+}
+
+.a_input {
+  font-size: 1.4rem;
+  font-family: "Open Sans";
+  float: left;
+  margin-top: .3vh;
+  margin-left: 2vw;
+  width: 9vw;
+  height: 3.5vh;
+}
+
+#bodyFooterSubmit {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Open Sans";
+  display: block;
+  width: 7vw;
+  margin: 0px 22.2vw 1vh;
+}
+
+/* expand functions */
+.multiselect {
+  background-color: white;
+  position: absolute;
+  display: inline;
+  width: 21vw;
+  margin-top: .3vh;
+  right: 0;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  height: 3.5vh;
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.innerSelectOverlay {
+  position: sticky;
+  margin-top: -3.5vh;
+  width: 100%;
+  height: 3.5vh;
+}
+
+.innerSelectBox select {
+  width: 95%;
+  margin-left: 2%;
+  border: none;
+  height: 3.5vh;
+  font-weight: bold;
+}
+
+.innerCheck {
+  display: none;
+  width: 70%;
+  margin-left: 9%;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  height: 25vh;
+  overflow-y: auto;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+input[type=checkbox] {
+  margin-right: 3%;
+  margin-left: 2%;
+  border: 0.00vh;
+  width: 1.92vh !important;
+  height: 3vh !important;;
+  margin-top: -.12vh !important;;
+  vertical-align: middle !important;;
+}
