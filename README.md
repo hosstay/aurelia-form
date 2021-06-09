@@ -1,6 +1,7 @@
 # Aurelia Form
 
 A personal compose component for aurelia that creates a popup form.
+
 Form contains functionality for loading in the given data, reacting to checkboxes, required fields, and other novelties
 
 ## Getting Started
